@@ -1,0 +1,100 @@
+weibo:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+  norm: batchnorm
+reddit:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+  norm: batchnorm
+amazon:
+  kernel: gin
+  num_layer: 1
+  act: relu
+  norm: batchnorm
+yelp:
+  kernel: gin
+  num_layer: 1
+  act: tanh
+tolokers:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+questions:
+  kernel: gcn
+  num_layer: 2
+  act: leakyrelu
+tfinance:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+elliptic:
+  kernel: gin
+  num_layer: 1
+  act: relu
+  norm: batchnorm
+dgraphfin:
+  kernel: gin
+  num_layer: 2
+  act: leakyrelu
+  norm: batchnorm
+tsocial:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+acm:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+blogcatalog:
+  kernel: gin
+  num_layer: 1
+  act: relu
+inj_cora:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+  norm: batchnorm
+inj_amazon:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+  norm: batchnorm
+inj_flickr:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+  norm: batchnorm
+DD:
+  kernel: gin
+  num_layer: 1
+  act: relu
+IMDB-BINARY:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+  norm: layernorm
+REDDIT-BINARY:
+  kernel: gcn
+  num_layer: 2
+  act: leakyrelu
+PROTEINS_full:
+  kernel: gcn
+  num_layer: 1
+  act: relu
+  norm: batchnorm
+AIDS:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+  norm: layernorm
+NCI1:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+  norm: layernorm
+Mutagenicity:
+  kernel: gin
+  num_layer: 1
+  act: leakyrelu

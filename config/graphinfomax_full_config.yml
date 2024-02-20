@@ -1,0 +1,45 @@
+weibo:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+  norm: batchnorm
+reddit:
+  kernel: gcn
+  num_layer: 2
+  act: leakyrelu
+  norm: batchnorm
+amazon:
+  kernel: gin
+  num_layer: 1
+  act: tanh
+yelp:
+  kernel: gin
+  num_layer: 1
+  act: tanh
+tolokers:
+  kernel: gcn
+  num_layer: 2
+  act: leakyrelu
+  norm: batchnorm
+questions:
+  kernel: gcn
+  num_layer: 2
+  act: relu
+  norm: batchnorm
+tfinance:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
+elliptic:
+  kernel: gin
+  num_layer: 1
+  act: tanh
+dgraphfin:
+  kernel: gcn
+  num_layer: 1
+  act: tanh
+  norm: batchnorm
+tsocial:
+  kernel: gcn
+  num_layer: 2
+  act: tanh
